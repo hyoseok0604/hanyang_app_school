@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(this, LinearLayoutActivity.class);
                 break;
             case R.id.relative:
-                //intent = new Intent(this, RelativeActivity.class);
+                intent = new Intent(this, RelativeLayoutActivity.class);
                 break;
             case R.id.calc:
                 //intent = new Intent(this, CalcActivity.class);
