@@ -24,6 +24,7 @@
         <activity android:name=".ThreadCountDownActivity" />
         <activity android:name=".LinearLayoutActivity"/>
         <activity android:name=".RelativeLayoutActivity"/>
+        <activity android:name=".CalculatorActivity"/>
     </application>
 
 </manifest>

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TableLayout;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ButterKnife.bind(this);
 
         connectOnClickListener();
+
+        Toast.makeText(this, String.valueOf(Double.parseDouble(".1")), Toast.LENGTH_LONG).show();
     }
 
     public List<View> getAllButtons(ViewGroup layout){
@@ -56,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(this, RelativeLayoutActivity.class);
                 break;
             case R.id.calc:
-                //intent = new Intent(this, CalcActivity.class);
+                intent = new Intent(this, CalculatorActivity.class);
                 break;
             case R.id.frame:
                 intent = new Intent(this, FrameActivity.class);
