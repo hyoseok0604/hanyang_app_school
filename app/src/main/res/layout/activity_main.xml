@@ -14,13 +14,10 @@
         <TableRow>
             <Button
                 android:id="@+id/linear"
-                android:text="1"/>
+                android:text="LinearLayout"/>
             <Button
                 android:id="@+id/relative"
-                android:text="1"/>
-            <Button
-                android:id="@+id/calc"
-                android:text="1"/>
+                android:text="RelativeLayout"/>
             <Button
                 android:id="@+id/frame"
                 android:text="FrameLayout"/>
@@ -31,8 +28,6 @@
                 android:id="@+id/image"
                 android:text="ImageView"/>
             <Button
-                android:text="1"/>
-            <Button
                 android:id="@+id/countdown"
                 android:text="CountDown"/>
             <Button
@@ -42,9 +37,8 @@
 
         <TableRow>
             <Button
-                android:text="1"/>
-            <Button
-                android:text="1"/>
+                android:id="@+id/calc"
+                android:text="Calc"/>
             <Button
                 android:text="1"/>
             <Button

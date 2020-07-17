@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()){
             case R.id.linear:
-                //intent = new Intent(this, LinearActivity.class);
+                intent = new Intent(this, LinearLayoutActivity.class);
                 break;
             case R.id.relative:
                 //intent = new Intent(this, RelativeActivity.class);
