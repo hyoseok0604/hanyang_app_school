@@ -73,6 +73,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.handler1:
                 intent = new Intent(this, HandlerActivity.class);
                 break;
+            case R.id.component:
+                intent = new Intent(this, ComponentActivity.class);
+                break;
         }
 
         if (intent != null) startActivity(intent);
